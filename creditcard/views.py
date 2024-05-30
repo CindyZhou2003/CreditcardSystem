@@ -5,7 +5,7 @@ from django.core.serializers import serialize
 from django.db.models import Sum
 from django.http import JsonResponse
 from django.views.decorators.http import require_http_methods
-from .admin import *
+from .models import *
 
 
 ## 信用卡操作部分

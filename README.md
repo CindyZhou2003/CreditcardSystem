@@ -7,8 +7,8 @@
 ## creditcard
 
 1. 编辑 models.py 文件，改变模型。
-2. 运行 python manage.py makemigrations 为模型的改变生成迁移文件。
-3. 运行 python manage.py migrate 数据库根据迁移文件更改表
+2. 运行 `python manage.py makemigrations` 为模型的改变生成迁移文件。
+3. 运行 `python manage.py migrate` 数据库根据迁移文件更改表
 
 - `creditcard/urls.py` 配置路由 
 
